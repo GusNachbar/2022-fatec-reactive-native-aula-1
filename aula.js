@@ -28,7 +28,12 @@ axios.get(url)
 //         console.log(`Descrição: ${element.weather[0].description} \n`);
 //     });
 // })
-
+// let elements = []
 // cityList.forEach(element => {
-//     console.log(element.name.startsWith('A'));
+//     element.filter(word => {
+//         if(word.starsWith("A")){
+//             elements.push(word)
+//         }
+//     })
+//     console.log(elements);
 // })
